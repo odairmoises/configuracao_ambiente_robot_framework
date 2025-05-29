@@ -35,15 +35,16 @@ Este script PowerShell automatiza a limpeza e configuração de um ambiente loca
    ```powershell
    .\limpar_e_configurar_robot_framework.ps1
    ```
-   Se for solicitado permissões especiais execute esse script:  ```powershell
+
+   2.1 Se a execução do script com o comando acima apresentar erro execute esse script:
+
+   ```powershell
    -ExecutionPolicy Bypass -File .\limpar_e_configurar_robot.ps1
    ```
-      
-      
+   
+4. O script irá solicitar confirmações para algumas etapas, como remoção de ambientes virtuais antigos e ativação do ambiente virtual.
 
-3. O script irá solicitar confirmações para algumas etapas, como remoção de ambientes virtuais antigos e ativação do ambiente virtual.
-
-4. Caso opte por ativar o ambiente virtual, será exibido o comando para executar no terminal atual:
+5. Caso opte por ativar o ambiente virtual, será exibido o comando para executar no terminal atual:
 
    ```powershell
    & "caminho\para\robot-env\Scripts\Activate.ps1"
@@ -51,9 +52,9 @@ Este script PowerShell automatiza a limpeza e configuração de um ambiente loca
 
    Execute este comando para ativar o ambiente virtual.
 
-5. Após a ativação, você poderá rodar os testes Robot Framework usando as bibliotecas instaladas.
+6. Após a ativação, você poderá rodar os testes Robot Framework usando as bibliotecas instaladas.
 
-6. Executar o script de validação 'validar_ambiente.robot' comando
+7. Executar o script de validação 'validar_ambiente.robot' comando
 robot validar_ambiente.robot
 
 
