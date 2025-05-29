@@ -35,9 +35,9 @@ Este script PowerShell automatiza a limpeza e configuração de um ambiente loca
    ```powershell
    .\limpar_e_configurar_robot_framework.ps1
    ```
-   Se for solicitado permissões especiais execute esse script: ```powershell
+   Se for solicitado permissões especiais execute esse script: powershell
       -ExecutionPolicy Bypass -File .\limpar_e_configurar_robot.ps1
-      ```
+      
 
 3. O script irá solicitar confirmações para algumas etapas, como remoção de ambientes virtuais antigos e ativação do ambiente virtual.
 
