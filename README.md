@@ -39,7 +39,7 @@ Este script PowerShell automatiza a limpeza e configuração de um ambiente loca
    2.1 Se a execução do script com o comando acima apresentar erro execute esse script:
 
    ```powershell
-   -ExecutionPolicy Bypass -File .\limpar_e_configurar_robot.ps1
+   -ExecutionPolicy Bypass -File .\limpar_e_configurar_robot_framework.ps1
    ```
    
 4. O script irá solicitar confirmações para algumas etapas, como remoção de ambientes virtuais antigos e ativação do ambiente virtual.
